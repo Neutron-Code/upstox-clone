@@ -1,7 +1,13 @@
+import React from 'react';
+import { NavBarSmall, NavBarLarge } from './components/NavBar';
+import Hero from './components/HeroPage'
+
 function App() {
   return (
     <>
-      <h1>Hello World</h1>
+      <NavBarSmall />
+      <NavBarLarge />
+      <Hero />
     </>
   )
 }
