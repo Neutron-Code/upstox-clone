@@ -7,6 +7,7 @@ import ChooseUs from './components/Choose';
 import Charges from './components/Charges';
 import AccordionComponent from './components/Accordion';
 import Awards from './components/Awards';
+import Review from './components/Review';
 import FAQ from './components/FAQ';
 import Footer from './components/Footer';
 
@@ -22,6 +23,7 @@ function App() {
       <Charges />
       <AccordionComponent />
       <Awards />
+      <Review />
       <FAQ />
       <Footer />
     </>
