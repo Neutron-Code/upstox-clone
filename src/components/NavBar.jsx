@@ -130,6 +130,7 @@ const Container = styled.div`
   justify-content: space-between;
   width: 100vw;
   position: fixed;
+  background: white;
   z-index: 10;
 `;
 
@@ -141,6 +142,8 @@ const ContainerLg = styled.div`
   width: 100vw;
   position: fixed;
   z-index: 10;
+  background: white;
+  -webkit-box-shadow: 6px 0px 51px -28px rgba(0,0,0,0.75);
 
   ul {
     display: flex;

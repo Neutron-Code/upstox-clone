@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+body, html{overflow-x: hidden; background-color: smoke;}
+
+.slick-track {
+  display: flex;
+  gap: 2em;
+  padding: 1em;
+  font-size: 1rem;
+  margin-left: 8rem;
+  padding-right: 7rem;
+}
+
+li,
+button {
+  cursor: pointer;
+}
+
+li::marker{
+  color: black;
+}
+
+#textDescription{text-align: justify;}
+
+@media screen and (max-width: 878px) {
+  #heroHtmlText {
+    font-size: 2.2rem;
+  }
+
+  #heroContainer {
+    padding: 3rem 0rem 0rem 0rem;
+  }
+
+  #heroText {
+    width: 100%;
+  }
+
+  #first {
+    margin-left: 0em;
+  }
+
+  #second {
+    margin-left: 0em;
+  }
+
+  #third {
+    margin-left: 0em;
+    font-size: 1rem;
+  }
+
+  .slick-track {
+    margin-left: 0em;
+    padding: 1em 0em;
+  }
+
+  #fourth {
+    margin-left: 0em;
+  }
+
+  #fifth {
+    margin-left: 0em;
+    padding: 1em;
+    text-align: center;
+    max-width: 100%;
+    font-size: 14px;
+  }
+
+  #startInvesting {
+    font-size: 2rem;
+  }
+
+  #chooseUs{
+    display: block;
+    width: 100vw;
+  }
+
+  #footer{
+    display: block;
+  }
+  
+  #products{
+    margin-left: 2rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  #invest {
+    display: block;
+    text-align: center;
+    padding: 2rem;
+  }
+
+  #startInvesting {
+    font-size: 1.3rem;
+  }
+
+  #invest_btn {
+    margin-top: 1em;
+  }
+}
+
+.css-jtuf4s-MuiGrid-root>.MuiGrid-item{
+  padding-left: 0px;
+}
+
+#products{
+  margin-left: 2rem;
+}
+
+@media screen and (max-width: 614px) {
+  #third div {
+    display: block;
+    max-width: 100%;
+    font-size: 0.8rem;
+  }
+
+  #fourth #textContact {
+    width: 80vw;
+  }
+
+  #fourth #openDemat {
+    width: 90vw;
+  }
+
+  #iconText {
+    font-size: 0.7rem;
+    text-align: center;
+  }
+
+  #stepperAcc{
+    max-width: 100vw;
+    text-align: center;
+    padding: 1em 0rem;
+  }
+}
+
+#trust {
+  animation: rotate 7s linear infinite;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* .slick-prev, .slick-next{
+  z-index: 20;
+}
+
+.slick-prev::before{
+  content: '<';
+  font-weight: bolder;
+  font-size: 40px;
+  color: black;
+  background-color: green;
+  border-radius: 50%;
+  padding: 2rem;
+}
+
+.slick-next{
+  right: 0px;
+  color: black;
+} */
